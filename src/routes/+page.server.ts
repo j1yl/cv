@@ -1,6 +1,5 @@
-import { readFileSync } from 'node:fs';
-import { join } from 'node:path';
 import type { PageServerLoad } from './$types';
+import portfolioData from '$lib/data/me.json';
 
 export interface ProjectData {
 	title: string;
@@ -79,37 +78,7 @@ export interface PortfolioData {
 }
 
 export const load: PageServerLoad = async () => {
-	try {
-		const dataPath = join(process.cwd(), 'static', 'data', 'me.json');
-		const jsonData = readFileSync(dataPath, 'utf-8');
-		const data: PortfolioData = JSON.parse(jsonData);
-
-		return {
-			portfolio: data
-		};
-	} catch (error) {
-		console.error('Error loading portfolio data:', error);
-		// Return default data if JSON fails to load
-		return {
-			portfolio: {
-				profile: {
-					name: 'Joe Lee',
-					title: 'Software in Los Angeles',
-					avatar: '/avatar.jpg',
-					website: {
-						url: 'https://webverry.com',
-						title: 'webverry.com'
-					}
-				},
-				about: {
-					description:
-						'Joe Lee is a software engineer who builds interactive and performant web applications.'
-				},
-				work_experience: [],
-				education: [],
-				awards: [],
-				contact: []
-			}
-		};
-	}
+	return {
+		portfolio: portfolioData as PortfolioData
+	};
 };
