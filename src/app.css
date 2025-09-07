@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+/* Prevent layout shift during loading */
+[data-animate] {
+	opacity: 0;
+	transform: translateY(20px);
+}
+
+[data-scroll-animate] {
+	opacity: 0;
+	transform: translateY(30px);
+}
+
+/* Ensure images maintain aspect ratio during loading */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Smooth transitions for loading states */
+.loading-transition {
+	transition: opacity 0.3s ease-in-out;
+}
