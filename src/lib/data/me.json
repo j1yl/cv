@@ -77,67 +77,6 @@
 			]
 		},
 		{
-			"id": "nexq",
-			"period": "2023 — Now",
-			"company": "NEXQ",
-			"position": "QML Engineer",
-			"location": "Irvine, CA",
-			"url": "https://nexq.us",
-			"type": "job",
-			"description": "Building quantum machine learning infrastructure and enterprise solutions.",
-			"project": {
-				"title": "Quantum Machine Learning Platform",
-				"description": "Architected quantum machine learning infrastructure for flagship product, including training pipelines, enterprise authentication systems, and full-stack web architecture.",
-				"role": "Lead QML Engineer",
-				"show_modal": true,
-				"images": [
-					"/images/projects/nexq.png",
-					"/images/projects/nexq.png",
-					"/images/projects/nexq-auth.png"
-				],
-				"technologies": [
-					"Python",
-					"Qiskit",
-					"PennyLane",
-					"Tensorflow",
-					"React",
-					"Next.js",
-					"PostgreSQL",
-					"Docker",
-					"GCP"
-				],
-				"outcomes": [
-					"Built training pipeline for flagship quantum ML product with optimized batch processing",
-					"Architected enterprise authentication system with GDPR and HIPAA compliance",
-					"Developed full-stack website and blog architecture",
-					"Improved quantum model training efficiency by 21% through pipeline optimization",
-					"Led implementation of secure data handling for healthcare and financial clients"
-				],
-				"highlights": [
-					"Architected scalable quantum ML infrastructure from ground up",
-					"Built enterprise-grade security framework with GDPR and HIPAA compliance"
-				]
-			}
-		},
-		{
-			"id": "nexq-projects",
-			"type": "projects",
-			"projects": [
-				{
-					"title": "Training Pipeline",
-					"description": "Scalable quantum ML training infrastructure with batch processing"
-				},
-				{
-					"title": "Enterprise Auth System",
-					"description": "GDPR & HIPAA compliant authentication and authorization"
-				},
-				{
-					"title": "Full-Stack Platform",
-					"description": "Complete web architecture with blog and content management"
-				}
-			]
-		},
-		{
 			"id": "csuf",
 			"period": "2023 — 2023",
 			"company": "Cal State Fullerton",
