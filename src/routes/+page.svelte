@@ -184,7 +184,7 @@
 
 		<!-- About -->
 		<div class="flex flex-col gap-2" data-section>
-			<h2 data-scroll-animate>About</h2>
+			<h2 class="text-sm leading-none" data-scroll-animate>About</h2>
 			<p class="max-w-md text-sm text-neutral-700" data-scroll-animate>
 				{portfolio.about.description}
 			</p>
@@ -192,7 +192,7 @@
 
 		<!-- Work experience -->
 		<div class="flex flex-col gap-6" data-section>
-			<h2 class="leading-none" data-scroll-animate>Work experience</h2>
+			<h2 class="text-sm leading-none" data-scroll-animate>Work</h2>
 			{#each portfolio.work_experience as item (item.id)}
 				{#if item.type === 'job'}
 					<div class="grid grid-cols-3 place-items-start gap-2" data-scroll-animate>
@@ -246,7 +246,7 @@
 		</div>
 		<!-- Education -->
 		<div class="flex flex-col gap-6" data-section>
-			<h2 class="leading-none" data-scroll-animate>Education</h2>
+			<h2 class="text-sm leading-none" data-scroll-animate>Education</h2>
 			{#each portfolio.education as education (education.id)}
 				<div class="grid grid-cols-3 place-items-start gap-2" data-scroll-animate>
 					<p class="text-sm text-neutral-700">{education.period}</p>
@@ -264,7 +264,7 @@
 
 		<!-- Awards -->
 		<div class="flex flex-col gap-6" data-section>
-			<h2 class="leading-none" data-scroll-animate>Awards</h2>
+			<h2 class="text-sm leading-none" data-scroll-animate>Awards</h2>
 			{#each portfolio.awards as award (award.id)}
 				<div class="grid grid-cols-3 place-items-start gap-2" data-scroll-animate>
 					<p class="text-sm text-neutral-700">{award.period}</p>
@@ -284,7 +284,7 @@
 
 		<!-- Contact -->
 		<div class="flex flex-col gap-6" data-section>
-			<h2 class="leading-none" data-scroll-animate>Contact</h2>
+			<h2 class="text-sm leading-none" data-scroll-animate>Contact</h2>
 			{#each portfolio.contact as contact (contact.id)}
 				<div class="grid grid-cols-3 place-items-start gap-2" data-scroll-animate>
 					<p class="text-sm text-neutral-700">{contact.platform}</p>

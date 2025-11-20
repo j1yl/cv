@@ -7,8 +7,8 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
-	<title>Joe Lee - Software in Los Angeles</title>
-	<meta name="description" content="Joe Lee's personal website" />
+	<title>Joe Lee - Portfolio</title>
+	<meta name="description" content="" />
 </svelte:head>
 
 <main class="mx-auto px-6 py-16 md:max-w-4xl md:px-32 md:py-32">

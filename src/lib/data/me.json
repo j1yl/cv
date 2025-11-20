@@ -1,7 +1,7 @@
 {
 	"profile": {
 		"name": "Joe Lee",
-		"title": "Software in Los Angeles",
+		"title": "Technical Builder With AI Intuition",
 		"avatar": "/avatar.jpg",
 		"website": {
 			"url": "https://webverry.com",
@@ -19,62 +19,7 @@
 			"position": "Founder, CEO",
 			"location": "Remote",
 			"url": "https://webverry.com",
-			"type": "job",
-			"description": "Building high-revenue e-commerce platforms with 100k+ product drops and $50k+ MRR across all brands.",
-			"project": {
-				"title": "E-commerce Studio",
-				"description": "Full-service e-commerce studio specializing in high-performance, scalable e-commerce storefronts using cutting-edge technologies and modern development practices.",
-				"role": "Founder & CEO",
-				"show_modal": true,
-				"images": [
-					"/images/projects/webverry.png",
-					"/images/projects/ampeur.png",
-					"/images/projects/etelier.png"
-				],
-				"technologies": [
-					"React",
-					"Next.js",
-					"TypeScript",
-					"Node.js",
-					"Python",
-					"GraphQL",
-					"Edge Compute",
-					"AWS",
-					"Vercel",
-					"Docker",
-					"GA4"
-				],
-				"outcomes": [
-					"$50k+ monthly profits collectively across all brands",
-					"Scaled client platforms to handle 100k+ orders with continuous growth",
-					"Achieved 99.87% uptime with auto-scaling infrastructure during high-traffic launches",
-					"Reduced client load times by 37% through performance optimization",
-					"Led team of 6 developers and designers delivering revenue-driving solutions"
-				],
-				"highlights": [
-					"Architected e-commerce infrastructure supporting rapid business growth and scale",
-					"Established data-driven development process focused on conversion optimization",
-					"Built proprietary e-commerce framework powering multiple high-revenue brands"
-				]
-			}
-		},
-		{
-			"id": "webverry-projects",
-			"type": "projects",
-			"projects": [
-				{
-					"title": "E-commerce Platform",
-					"description": "Scalable shopping platform with real-time features"
-				},
-				{
-					"title": "SaaS Dashboard",
-					"description": "Analytics dashboard with real-time data visualization"
-				},
-				{
-					"title": "Portfolio Sites",
-					"description": "Custom portfolio websites with CMS integration"
-				}
-			]
+			"type": "job"
 		},
 		{
 			"id": "csuf",
@@ -83,39 +28,7 @@
 			"position": "Supplemental Instruction Leader",
 			"location": "Fullerton, CA",
 			"url": "https://www.fullerton.edu/si/",
-			"type": "job",
-			"description": "Teaching and mentoring students in computer science fundamentals.",
-			"project": {
-				"title": "Computer Science Education Program",
-				"description": "Comprehensive supplemental instruction program designed to help students master fundamental programming concepts and problem-solving skills through innovative teaching methods.",
-				"role": "Supplemental Instruction Leader",
-				"show_modal": false,
-				"images": [
-					"/images/projects/csuf-teaching.jpg",
-					"/images/projects/csuf-students.jpg",
-					"/images/projects/csuf-materials.jpg"
-				],
-				"technologies": [
-					"Python",
-					"Java",
-					"C++",
-					"Data Structures",
-					"Algorithms",
-					"Object-Oriented Programming"
-				],
-				"outcomes": [
-					"Improved student retention rate by 25%",
-					"95% of students rated sessions as helpful or very helpful",
-					"Received outstanding SI leader award for exceptional performance",
-					"Mentored 150+ students throughout the semester",
-					"Developed comprehensive study guides and practice problems"
-				],
-				"highlights": [
-					"Pioneered interactive coding exercises that increased engagement",
-					"Implemented peer learning methodology for collaborative problem-solving",
-					"Created visual learning materials including diagrams and flowcharts"
-				]
-			}
+			"type": "job"
 		}
 	],
 	"education": [

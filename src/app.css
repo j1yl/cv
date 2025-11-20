@@ -1,5 +1,12 @@
 @import 'tailwindcss';
-@plugin '@tailwindcss/typography';
+
+/* Font family */
+* {
+	font-family: "Zalando Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
 
 /* Prevent layout shift during loading */
 [data-animate] {
